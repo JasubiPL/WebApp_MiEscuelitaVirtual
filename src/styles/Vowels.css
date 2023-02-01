@@ -4,9 +4,16 @@
     height: 480px;
     grid-template-rows: 1fr 10fr;
 }
-
-.lettersTittle{
+.centerTittle{
+    text-align: center;
     font-family: crayola;
+}
+
+.centerTittle p{
+    font-size: 50px;
+    margin: 0;
+}
+.lettersTittle{
     text-align: center;
     font-size: 80px;
     margin: 0;

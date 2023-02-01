@@ -5,26 +5,58 @@
     height: 130px;
     background: none;
     border-radius: 10px;
-    
+    transition: .25s linear;
+    cursor: pointer;
 }
+
+
 
 .a{
     color: #C70039;
     border: 5px solid #C70039;
 }
+.a:hover{
+    color: #fff;
+    background-color: #C70039;
+}
+
 .e{
     color: #FF5733;
     border: 5px solid #FF5733;
 }
+
+.e:hover{
+    color: #fff;
+    background-color: #FF5733;
+}
+
 .i{
     color: #FFBD33;
     border: 5px solid #FFBD33;
 }
+
+.i:hover{
+    color: #fff;
+    background-color: #FFBD33;
+}
+
 .o{
     color: #75FF33;
     border: 5px solid #75FF33;
 }
+
+.o:hover{
+    color: #fff;
+    background-color: #75FF33;
+}
+
 .u{
     color: #33FFBD;
     border: 5px solid #33FFBD;
 }
+
+.u:hover{
+    color: #fff;
+    background-color: #33FFBD;
+}
+
