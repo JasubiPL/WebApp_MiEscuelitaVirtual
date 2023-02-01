@@ -1,0 +1,30 @@
+.lettersStyle{
+    font-family: crayola;
+    font-size: 100px;
+    width: 130px;
+    height: 130px;
+    background: none;
+    border-radius: 10px;
+    
+}
+
+.a{
+    color: #C70039;
+    border: 5px solid #C70039;
+}
+.e{
+    color: #FF5733;
+    border: 5px solid #FF5733;
+}
+.i{
+    color: #FFBD33;
+    border: 5px solid #FFBD33;
+}
+.o{
+    color: #75FF33;
+    border: 5px solid #75FF33;
+}
+.u{
+    color: #33FFBD;
+    border: 5px solid #33FFBD;
+}

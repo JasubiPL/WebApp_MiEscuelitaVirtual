@@ -1,0 +1,19 @@
+.centerLetters{
+    display: grid;
+    /* background-color: aqua; */
+    height: 480px;
+    grid-template-rows: 1fr 10fr;
+}
+
+.lettersTittle{
+    font-family: crayola;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    color: #FF5733;
+}
+.containerLetters{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

@@ -1,0 +1,15 @@
+ @font-face {
+  font-family: crayola;
+  src: url("./assets/Crayon.ttf");
+ }
+
+ body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./img/background_level.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
