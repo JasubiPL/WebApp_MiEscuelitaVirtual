@@ -60,3 +60,13 @@
     background-color: #33FFBD;
 }
 
+@media screen and (max-height: 500px) {
+    .lettersStyle{
+        font-size: 50px;
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
+        border: solid 3px;
+    }
+}
+

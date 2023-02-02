@@ -1,17 +1,22 @@
 .centerLetters{
-    display: grid;
-    /* background-color: aqua; */
-    height: 480px;
-    grid-template-rows: 1fr 10fr;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    /* background-color: grey; */
+    align-items: center;
 }
 .centerTittle{
     text-align: center;
     font-family: crayola;
+    padding: 0;
+    /* background-color: aqua; */
 }
 
 .centerTittle p{
     font-size: 50px;
     margin: 0;
+    padding: 0;
 }
 .lettersTittle{
     text-align: center;
@@ -20,7 +25,22 @@
     color: #FF5733;
 }
 .containerLetters{
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    /* background-color: green; */
+}
+
+@media screen and (max-height: 500px) {
+    .centerTittle p{
+        font-size: 30px;
+    }
+    .lettersTittle{
+        text-align: center;
+        font-size: 50px;
+    }
+    
 }
