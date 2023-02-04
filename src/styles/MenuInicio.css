@@ -5,7 +5,7 @@
     display: grid;
     grid-template-rows: 1fr 10fr;
     align-items: center;
-    background-image: url("../img/background-kids.jpg");
+    background-image: url("../img/background-kids-2.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -43,4 +43,19 @@
     .intro-container__tittle{
         font-size: 70px;
     }
+}
+
+.credits{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: branding;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.credits img{
+    width: 100px;
 }

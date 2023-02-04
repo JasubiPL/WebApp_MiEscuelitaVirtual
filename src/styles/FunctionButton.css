@@ -9,4 +9,18 @@
     justify-content: center;
     padding: 30px;
     cursor: pointer;
+    animation: zoom 1.5s infinite;
+}
+
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
 }

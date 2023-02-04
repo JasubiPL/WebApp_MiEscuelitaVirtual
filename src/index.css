@@ -7,6 +7,10 @@
   --color-green:#79c141;
  }
  @font-face {
+  font-family: branding;
+  src: url("./assets/SpoofTrialVF.ttf");
+ }
+ @font-face {
   font-family: crayola;
   src: url("./assets/Crayon.ttf");
  }

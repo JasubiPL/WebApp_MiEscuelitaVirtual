@@ -1,0 +1,10 @@
+.music-icon{
+    font-size: 50px;
+    color: red;
+    display: flex;
+    background-color: var(--color-yellow);
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: solid 5px var(--color-red);
+    cursor: pointer;
+}
