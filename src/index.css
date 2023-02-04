@@ -1,16 +1,23 @@
+ :root{
+  --color-purple: #511f73;
+  --color-skyblue:#26a699;
+  --color-yellow:#febe22;
+  --color-orange:#f29227;
+  --color-red:#f24c3d;
+  --color-green:#79c141;
+ }
  @font-face {
   font-family: crayola;
   src: url("./assets/Crayon.ttf");
  }
+ @font-face {
+  font-family: robot;
+  src: url("./assets/Patchy-Robots.ttf");
+ }
 
 
- body{
+ *{
   padding: 0;
   margin: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./img/background_level.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  box-sizing: border-box;
 }

@@ -1,0 +1,12 @@
+.function-button{
+    background-color: var(--color-green);
+    color: var(--color-purple);
+    border: solid 10px var(--color-purple);
+    font-size: 100px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    cursor: pointer;
+}
