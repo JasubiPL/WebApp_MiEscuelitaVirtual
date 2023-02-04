@@ -3,7 +3,6 @@ import MenuInicio from './components/MenuInicio'
 
 function App() {
 
-
   return (
     <div className="App">
       <MenuInicio />    
