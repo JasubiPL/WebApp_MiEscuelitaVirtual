@@ -1,13 +1,20 @@
 .intro-container{
-    padding: 50px 10px;
+    padding: 20px;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
     align-items: center;
     background-image: url("../img/background-kids.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.intro-container__nav{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .intro-container__center{
     width: 100%;
@@ -16,6 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-self: center;
+    
 }
 
 .intro-container__tittle{
@@ -26,5 +35,12 @@
     margin-bottom: 100px;
     -webkit-text-stroke: 1px #000;
     color: var(--color-skyblue);
+    align-self: flex-start;
     
+}
+
+@media screen and (max-width:1024px) {
+    .intro-container__tittle{
+        font-size: 70px;
+    }
 }
