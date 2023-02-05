@@ -1,8 +1,8 @@
 .lettersStyle{
     font-family: crayola;
-    font-size: 100px;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
     background: none;
     border-radius: 10px;
     transition: .25s linear;
@@ -60,13 +60,22 @@
     background-color: #33FFBD;
 }
 
-@media screen and (max-height: 500px) {
+/*------Responsive-------*/
+
+@media screen and (max-width: 1366px) {
     .lettersStyle{
-        font-size: 50px;
-        width: 75px;
-        height: 75px;
-        border-radius: 10px;
-        border: solid 3px;
+        width: 150px;
+        height: 150px;
+        font-size: 100px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .lettersStyle{
+        width: 120px;
+        height: 120px;
+        font-size: 90px;
+    }
+}
+
 

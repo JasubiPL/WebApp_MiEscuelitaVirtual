@@ -5,12 +5,11 @@ import Letters from "./Letters";
 
 function Vowels(){
     return(
-        <div className="centerLetters">
-            <div className='centerTittle'>
-            <h1 className='lettersTittle'>Mi Escuelita Virtual</h1>
-            <p>Las Vocales</p>
+        <div className="vowels-container">
+            <div className='vowels-container__tittle-container'>
+                <h1 className='vowels-container__tittle'>Las Vocales</h1>
             </div>
-            <div className='containerLetters'>
+            <div className='vowels-container__vowels-center'>
                 <Letters click={ () => audioVocalA.play()} >Aa</Letters>
                 <Letters click={ () => audioVocalE.play()} >Ee</Letters>
                 <Letters click={ () => audioVocalI.play()} >Ii</Letters>

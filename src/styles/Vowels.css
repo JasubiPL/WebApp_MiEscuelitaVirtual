@@ -1,46 +1,39 @@
-.centerLetters{
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    width: 90%;
-    /* background-color: grey; */
-    align-items: center;
+.vowels-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/background-level-vowels.png");
+    background-position: center;
+    background-size: cover;
 }
-.centerTittle{
+.vowels-container__tittle-container{
     text-align: center;
     font-family: crayola;
     padding: 0;
-    /* background-color: aqua; */
+    align-self: center;
 }
 
-.centerTittle p{
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-}
-.lettersTittle{
+.vowels-container__tittle-container h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 140px;
     margin: 0;
     color: #FF5733;
-}
-.containerLetters{
-    width: 100%;
-    max-width: 1024px;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: green; */
+    font-weight: normal;
 }
 
-@media screen and (max-height: 500px) {
-    .centerTittle p{
-        font-size: 30px;
-    }
-    .lettersTittle{
-        text-align: center;
-        font-size: 50px;
+
+.vowels-container__vowels-center{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-self: center;
+}
+
+@media screen and (max-width:1024px) {
+    .vowels-container__tittle-container h1{
+        font-size: 90px;
     }
     
 }
