@@ -17,7 +17,9 @@ export default function MenuInicio(){
             </nav>
             <article className='intro-container__center'>
             <h1 className='intro-container__tittle'>Mi Escuelita Virtual</h1>
-                <FunctionButton><FaPlay /></FunctionButton>
+                <FunctionButton >
+                    <FaPlay />
+                </FunctionButton>
             </article>
             <div className="credits">
                 <small>Create by</small>

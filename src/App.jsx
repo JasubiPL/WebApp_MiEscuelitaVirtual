@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import MenuInicio from './components/MenuInicio'
 import Vowels from './components/Vowels'
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <Vowels />  
+      <Vowels />
     </div>
   )
 }
