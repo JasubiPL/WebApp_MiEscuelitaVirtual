@@ -1,5 +1,5 @@
-import '../styles/Vowels.css'
-import Letters from "./Letters";
+import '../../styles/Vowels.css'
+import Letters from "../Letters";
 
 
 

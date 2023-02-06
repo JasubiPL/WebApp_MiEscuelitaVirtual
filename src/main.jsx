@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import MenuInicio from './components/screens/MenuInicio'
 import './index.css'
 import './js/getMusic.js'
 
@@ -9,6 +9,6 @@ import './js/getMusic.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <MenuInicio />
   </React.StrictMode>,
 )
