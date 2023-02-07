@@ -3,7 +3,7 @@ import {MdMusicOff} from 'react-icons/md'
 const MuteSound =({ handleEvent, sound }) =>{
 
     const muteSound = e =>{
-        alert(sound)
+        //alert(sound)
         handleEvent(true);
         audioPop.play();
         sound.play();
