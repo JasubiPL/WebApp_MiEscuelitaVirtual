@@ -18,7 +18,7 @@ export default function MenuInicio(){
             </nav>
             <article className='intro-container__center'>
             <h1 className='intro-container__tittle'>Mi Escuelita Virtual</h1>
-                <Link to='/level-vowels' >
+                <Link to='/minigames' >
                 <FunctionButton click={()=> audioPop.play()}>
                     <FaPlay />
                 </FunctionButton>
