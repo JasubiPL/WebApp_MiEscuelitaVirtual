@@ -10,7 +10,7 @@ export default function App(){
     return(
         <Routes>
             <Route path='/' element={<MenuInicio />} />
-            <Route path='/level-vowels' element={<Vowels />} />
+            <Route path='/minigame-vowels' element={<Vowels />} />
             <Route path='/minigames' element={<Minigames />} />
         </Routes>
     );

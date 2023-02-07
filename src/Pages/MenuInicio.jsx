@@ -14,7 +14,7 @@ export default function MenuInicio(){
         <section className='intro-container'>
             <nav className='intro-container__nav'>
                 <FunctionButtonNav><TiInfoLarge /></FunctionButtonNav>
-                <MusicIcon />
+                <MusicIcon sound={backgroundMusic}/>
             </nav>
             <article className='intro-container__center'>
             <h1 className='intro-container__tittle'>Mi Escuelita Virtual</h1>

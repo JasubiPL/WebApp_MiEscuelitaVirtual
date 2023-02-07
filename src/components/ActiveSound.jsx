@@ -1,11 +1,13 @@
 import {RiMusicFill} from 'react-icons/ri'
 
-const ActiveSound =({ handleEvent }) =>{
+const ActiveSound =({ handleEvent ,sound }) =>{
 
     const activeSound = e =>{
+        alert(sound)
         handleEvent(false);
         audioPop.play();
-        backgroundMusic.pause();
+        sound.pause();
+        
     } 
 
     return (

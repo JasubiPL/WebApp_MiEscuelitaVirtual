@@ -1,16 +1,16 @@
 import '../styles/Vowels.css'
 import Letters from '../components/Letters'
 import NavLevels from '../components/NavLevels';
-import { Link } from 'react-router-dom';
 
 
 
 function Vowels(){
     return(
         <div className="vowels-container">
-            <Link to='/minigames'>
-                <NavLevels tittle='Las Vocales'/>
-            </Link>
+                <NavLevels 
+                tittle='Las Vocales'
+                url='/minigames'
+                />
             <div className='vowels-container__vowels-center'>
                 <Letters click={ () => audioVocalA.play()} >Aa</Letters>
                 <Letters click={ () => audioVocalE.play()} >Ee</Letters>

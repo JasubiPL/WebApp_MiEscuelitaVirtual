@@ -8,3 +8,9 @@
     border: solid 5px var(--color-red);
     cursor: pointer;
 }
+
+@media screen and (max-width:1024px) {
+    .function-button-nav{
+        font-size: 35px;
+    }
+}
