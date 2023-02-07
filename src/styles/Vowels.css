@@ -9,13 +9,6 @@
     padding: 20px;
 }
 
-.vowels-container__nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
 .vowels-container__tittle-container{
     text-align: center;
     font-family: crayola;

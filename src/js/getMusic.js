@@ -1,3 +1,6 @@
+//Background Music
+const backgroundMusic = document.getElementById("backgroundMusic");
+
 //efects
 const audioPop = document.getElementById("audioPop");
 
