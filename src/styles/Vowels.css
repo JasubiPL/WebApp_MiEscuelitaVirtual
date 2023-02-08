@@ -1,6 +1,6 @@
 .vowels-container{
     display: grid;
-    grid-template-rows: 1fr 5fr 5fr;
+    grid-template-rows: 1fr 10fr;
     height: 100vh;
     width: 100vw;
     background-image: url("../img/background-level-vowels.png");
@@ -9,34 +9,11 @@
     padding: 20px;
 }
 
-.vowels-container__nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.vowels-container__tittle-container{
-    text-align: center;
-    font-family: crayola;
-    padding: 0;
-    align-self: center;
-}
-
-.vowels-container__tittle-container h1{
-    text-align: center;
-    font-size: 140px;
-    margin: 0;
-    color: #FF5733;
-    font-weight: normal;
-}
-
-
 .vowels-container__vowels-center{
     width: 80%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     justify-self: center;
 }
 

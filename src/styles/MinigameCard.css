@@ -1,0 +1,14 @@
+.minigamecard-container{
+    width: 100px;
+}
+
+.minigamecard-container img{
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .minigamecard-container{
+        width: 100px;
+    }
+    
+}

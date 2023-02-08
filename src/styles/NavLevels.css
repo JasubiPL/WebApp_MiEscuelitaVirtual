@@ -1,0 +1,21 @@
+.nav-levels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.nav-levels__tittle{
+    justify-self: center;
+    font-family: Robot;
+    font-size: 50px;
+    color: var(--color-red);
+    -webkit-text-stroke: .5px #000;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-levels__tittle{
+        font-size: 40px;
+    }
+}
