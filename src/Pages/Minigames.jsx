@@ -2,6 +2,7 @@ import '../styles/Minigames.css'
 import MinigameCard from '../components/MinigameCard';
 import NavLevels from '../components/NavLevels';
 import minigameVowelsIcon from '../img/minigame-vowels-icon.png'
+import minigameNumbersIcon from '../img/numbers1/numbers-icon.jpg'
 
 
 export default function Minigames(){
@@ -16,6 +17,10 @@ export default function Minigames(){
                 <MinigameCard
                 urlMinigame='/minigame-vowels'
                 iconMinigame={minigameVowelsIcon}
+                />
+                <MinigameCard
+                urlMinigame='/minigame-numbers1'
+                iconMinigame={minigameNumbersIcon}
                 />
 
             </article>
