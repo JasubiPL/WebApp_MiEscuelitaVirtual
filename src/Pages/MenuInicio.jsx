@@ -13,7 +13,7 @@ export default function MenuInicio(){
     return(
         <section className='intro-container'>
             <nav className='intro-container__nav'>
-                <FunctionButtonNav><TiInfoLarge /></FunctionButtonNav>
+                <FunctionButtonNav icon={<TiInfoLarge />} click={() =>audioPop.play()}/>
                 <MusicIcon sound={backgroundMusic}/>
             </nav>
             <article className='intro-container__center'>
