@@ -1,8 +1,6 @@
 import '../styles/Minigames.css'
 import MinigameCard from '../components/MinigameCard';
 import NavLevels from '../components/NavLevels';
-import minigameVowelsIcon from '../img/minigame-vowels-icon.png'
-import minigameNumbersIcon from '../img/numbers1/numbers-icon.jpg'
 import {AiFillStar} from 'react-icons/ai'
 
 
@@ -18,11 +16,11 @@ export default function Minigames(){
             <article className='minigames-container__center' >
                 <MinigameCard
                 urlMinigame='/minigame-vowels'
-                iconMinigame={minigameVowelsIcon}
+                iconMinigame="/img/minigame-vowels-icon.png"
                 />
                 <MinigameCard
                 urlMinigame='/minigame-numbers1'
-                iconMinigame={minigameNumbersIcon}
+                iconMinigame="/img/numbers1/numbers-icon.webp"
                 />
 
             </article>

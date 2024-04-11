@@ -1,5 +1,5 @@
 .numbers{
-  background-image: url(../img/background-kids-3.jpg);
+  background-image: url(/img/background-kids-3.webp);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -24,7 +24,7 @@
   justify-content: space-between;
   padding: 50px 20px;
   border: solid 10px;
-  border-image: url("../img/numbers1/wood-vector.jpg" ) 1% stretch;
+  border-image: url("/img/numbers1/wood-vector.webp" ) 1% stretch;
 }
 
 .numbers__cards-container{

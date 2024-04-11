@@ -1,16 +1,6 @@
 import NavLevels from '../components/NavLevels';
 import {AiFillSound} from 'react-icons/ai'
 import '../styles/Numbers1.css'
-import imgNumber1 from '../img/numbers1/numbers1-1.png'
-import imgNumber2 from '../img/numbers1/numbers1-2.png'
-import imgNumber3 from '../img/numbers1/numbers1-3.png'
-import imgNumber4 from '../img/numbers1/numbers1-4.png'
-import imgNumber5 from '../img/numbers1/numbers1-5.png'
-import imgNumber6 from '../img/numbers1/numbers1-6.png'
-import imgNumber7 from '../img/numbers1/numbers1-7.png'
-import imgNumber8 from '../img/numbers1/numbers1-8.png'
-import imgNumber9 from '../img/numbers1/numbers1-9.png'
-import imgNumber10 from '../img/numbers1/numbers1-10.png'
 
 export default function Numbers1(){
   backgroundMusic.pause();
@@ -21,43 +11,43 @@ export default function Numbers1(){
 
     switch(number){
       case 1:
-        imgContainer.innerHTML =`<img src=${imgNumber1} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-1.png" />`
         number1.play();
         break;
       case 2:
-        imgContainer.innerHTML =`<img src=${imgNumber2} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-2.png" />`
         number2.play();
         break;
       case 3:
-        imgContainer.innerHTML =`<img src=${imgNumber3} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-3.png" />`
         number3.play();
         break;
       case 4:
-        imgContainer.innerHTML =`<img src=${imgNumber4} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-4.png" />`
         number4.play();
         break;
       case 5:
-        imgContainer.innerHTML =`<img src=${imgNumber5} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-5.png" />`
         number5.play();
         break;
        case 6:
-          imgContainer.innerHTML =`<img src=${imgNumber6} />`
+          imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-6.png" />`
           number6.play();
         break;
       case 7:
-        imgContainer.innerHTML =`<img src=${imgNumber7} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-7.png" />`
         number7.play();
         break;
       case 8:
-        imgContainer.innerHTML =`<img src=${imgNumber8} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-8.png" />`
         number8.play();
         break;
       case 9:
-        imgContainer.innerHTML =`<img src=${imgNumber9} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-9.png" />`
         number9.play();
         break;
       case 10:
-        imgContainer.innerHTML =`<img src=${imgNumber10} />`
+        imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-10.png"} />`
         number10.play();
          break;
     }

@@ -4,7 +4,6 @@ import FunctionButtonNav from '../components/FunctionButtonsNav';
 import MusicIcon from '../components/MusicIcon';
 import {FaPlay} from 'react-icons/fa'
 import {TiInfoLarge} from 'react-icons/ti'
-import jasubipLogo from '../img/Imagotipo-Blanco.png'
 import { Link } from 'react-router-dom';
 
 
@@ -26,7 +25,7 @@ export default function MenuInicio(){
             </article>
             <div className="credits">
                 <small>Create by</small>
-                <img src={jasubipLogo}/>
+                <img src="/img/Imagotipo-Blanco.png"/>
             </div>
         </section>
     );

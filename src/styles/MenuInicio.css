@@ -5,7 +5,7 @@
     display: grid;
     grid-template-rows: 1fr 10fr;
     align-items: center;
-    background-image: url("../img/background-kids-2.jpg");
+    background-image: url("/img/background-kids-2.webp");
     background-position: center;
     background-size: cover;
 }

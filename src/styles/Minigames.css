@@ -1,5 +1,5 @@
 .minigames-container{
-    background-image: url("../img/background-kids.jpg");
+    background-image: url("./img/background-kids.webp");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -11,7 +11,7 @@
 }
 
 .minigames-container__center{
-    background-image: url("../img/background-minigames-screen.svg");
+    background-image: url("/img/background-minigames-screen.svg");
     width: 90%;
     max-width: 1366px;
     height: 100%;
