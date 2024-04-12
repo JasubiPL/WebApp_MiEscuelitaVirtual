@@ -3,6 +3,7 @@ import {AiFillSound} from 'react-icons/ai'
 import '../styles/Numbers1.css'
 
 export default function Numbers1(){
+  numberInstructions.currentTime = 0
   backgroundMusic.pause();
   numberInstructions.play();
 
@@ -12,42 +13,52 @@ export default function Numbers1(){
     switch(number){
       case 1:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-1.png" />`
+        number1.currentTime = 0
         number1.play();
         break;
       case 2:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-2.png" />`
+        number2.currentTime = 0
         number2.play();
         break;
       case 3:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-3.png" />`
+        number3.currentTime = 0
         number3.play();
         break;
       case 4:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-4.png" />`
+        number4.currentTime = 0
         number4.play();
         break;
       case 5:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-5.png" />`
+        number5.currentTime = 0
         number5.play();
         break;
        case 6:
           imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-6.png" />`
+          number6.currentTime = 0
           number6.play();
         break;
       case 7:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-7.png" />`
+        number7.currentTime = 0
         number7.play();
         break;
       case 8:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-8.png" />`
+        number8.currentTime = 0
         number8.play();
         break;
       case 9:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-9.png" />`
+        number9.currentTime = 0
         number9.play();
         break;
       case 10:
         imgContainer.innerHTML =`<img src="/img/numbers1/numbers1-10.png"} />`
+        number10.currentTime = 0
         number10.play();
          break;
     }

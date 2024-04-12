@@ -12,33 +12,34 @@
 
 .numbers__chalkboard{
   width: 90%;
+  height: 70dvh;
   max-width: 1024px;
-  max-height: 700px;
   margin-top: 50px;
   background-color: var(--color-green-chalkboard);
   align-self: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
   gap:20px;
   align-content: center;
   justify-content: space-between;
   padding: 50px 20px;
   border: solid 10px;
-  border-image: url("/img/numbers1/wood-vector.webp" ) 1% stretch;
+  border-image: url("/img/numbers1/wood-vector.jpg" ) 1% stretch;
 }
 
 .numbers__cards-container{
   /* background-color: red; */
+  width: 33%;
   display: flex;
   flex-wrap: wrap;
+  max-height: 100%;
   justify-content: space-evenly;
   gap: 10px;
 }
 
 .numbers__card{
   /* background-color: var(--color-purple); */
-  width: 95px;
-  height: 95px;
+  width: 30%;
+  aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,15 +52,20 @@
 }
 
 .numbers__img-container{
+  width: 64%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: dashed 5px var(--color-pink) ;
+  padding:20px;
 }
 
-.numbers__img-container img{
-  width: 70%;
+.numbers__img-container img {
+  display: flex;
+  width: 90%;
+  height: 90%;
   animation: zoom .4s;
+  object-fit: contain;
 }
 
 
@@ -77,15 +83,20 @@
 
 
 @media screen and (max-width:1024px) {
+  .numbers{
+    
+  }
 
   .numbers__chalkboard{
     margin-top: 0px;
+    padding: 15px;
   }
 
   .numbers__card{
-    width: 80px;
-    height: 80px;
-    font-size: 70px;
+    width: 22%;
+    border-radius: 10px;
+    font-size: 40px;
   }
+
     
 }
